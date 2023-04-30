@@ -37,10 +37,10 @@ const About = () => {
           I'm a software engineer with over 3 years of experience with a passion for creating innovative solutions to solve complex problems.
           </p>
           <p align="LEFT">
-          I'm skilled in Java 8, SpringBoot, Groovy, ReactJS and NodeJS.
+          I'm skilled in Java 8, Javascript, SpringBoot, ReactJS, NodeJS, Oracle, PostgreSQL, MongoDB Kubernetes, Docker, Drone, HTML, CSS, Bootstrap, RabbitMQ, Kafka, Micrometer, Grafana, Jira and Git
           </p>
           <p>
-          I have experience in Agile methodologies and the software development lifecycle and keen interest in Blockchain technologies.
+          I have experience in Agile methodologies and the software development lifecycle and a keen interest in Blockchain technologies.
           </p>
         </div>
 
