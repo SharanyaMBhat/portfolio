@@ -8,6 +8,7 @@ import AirDraw from "../../assets/images/airdraw.png"
 import Cryptoverse from "../../assets/images/cryptoverse.png"
 import Facemesh from "../../assets/images/facemesh.png"
 import GreenConnect from "../../assets/images/greenconnect.png"
+import Blog from "../../assets/images/blog.png"
 import ICAgile from "../../assets/images/icagile.png"
 import Python from "../../assets/images/python.png"
 import Accenture from "../../assets/images/accenture.png"
@@ -50,6 +51,12 @@ const Portfolio = () => {
       image: GreenConnect,
       description: 'A platform that connects Target directly to various NGOs which would reduce and eliminate wastage through donations. Built for a Hackathon in Target using React, Node and PostgreSQL.',
       url: 'https://www.target.com/',
+    },
+    {
+      name: 'BLOG WEBSITE',
+      image: Blog,
+      description: 'A fully responsive blog application with featured posts, categories, author information and comments built using React JS, NextJS, Tailwind CSS, GraphQL, and GraphCMS',
+      url: 'https://blog-802pm3fqp-sharanyambhat.vercel.app/',
     },
     // Add more projects as needed
   ]);
