@@ -44,7 +44,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Please send me a message to discuss interesting full stack development opportunities or just to chat!
+            Please send me a message to discuss interesting opportunities or just to chat!
           </p>
           <p>
             You can also reach me at <strong>+91-8123699547</strong> or <strong>sharanyamundakana@gmail.com</strong>

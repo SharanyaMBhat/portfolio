@@ -39,6 +39,8 @@ const Home = () => {
     }, 4000)
   }, [])
 
+  const resumeUrl = 'https://drive.google.com/file/d/158IOthX3bCCSqKBF16FJs-pv19IEunRA/view?usp=sharing';
+ 
   return (
     <>
       <div className="container home-page">
@@ -56,18 +58,18 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={15}
+              idx={16}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={23}
+              idx={17}
             />
           </h1>
           <h2>Senior software engineer</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
+          <Link to={resumeUrl} className="flat-button">
+            DOWNLOAD RESUME
           </Link>
         </div>
         <Logo />

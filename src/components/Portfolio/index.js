@@ -12,7 +12,10 @@ import Blog from "../../assets/images/blog.png"
 import ICAgile from "../../assets/images/icagile.png"
 import Python from "../../assets/images/python.png"
 import Accenture from "../../assets/images/accenture.png"
+import Data from "../../assets/images/data.png"
 import More from "../../assets/images/more.png"
+import Project from "../../assets/images/project.png"
+
 const Portfolio = () => { 
   const [letterClass, setLetterClass] = useState('text-animate');
   const [portfolio, setPortfolio] = useState([
@@ -71,7 +74,19 @@ const Portfolio = () => {
       name: 'Python for Data Science',
       image: Python,
       description: 'Issued by NPTEL',
-      url: 'https://nptel.ac.in/?q=nptel21cs78s1319128503057308',
+      url: 'https://drive.google.com/file/d/1idZ9_Xyty5uBTQ_iBdWBcn1IQ1anS7af/view?usp=sharing',
+    },
+    {
+      name: 'Google Advanced Data Analytics Certificate',
+      image: Data,
+      description: 'Issued by Coursera',
+      url: 'https://coursera.org/share/e1b135919f5768001e6972925a257867',
+    },
+    {
+      name: 'Google Project Management Certificate',
+      image: Project,
+      description: 'Issued by Coursera',
+      url: 'https://coursera.org/share/a9b259f4fc27f3bd9fa0a99d44a09187',
     },
     {
       name: 'Accenture Developer Program',
@@ -98,22 +113,6 @@ const Portfolio = () => {
       }
   });
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch('https://example.com/portfolio');
-      const data = await response.json();
-      setPortfolio(data);
-    };
-
-    fetchData();
-  }, []);
-
-//   useEffect(() => {
-//     getPortfolio();
-// }, []);
-
-// const getPortfolio = async () => {
-// }
 
   const renderPortfolio = (portfolio) => {
     return (
