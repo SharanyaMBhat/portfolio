@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react'
 import {
-  faCss3,
   faGitAlt,
-  faHtml5,
   faJava,
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
+import { faChartLine, faDatabase } from '@fortawesome/free-solid-svg-icons';
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,13 +31,21 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>Hi there! I'm Sharanya Mundakana, a passionate Software Engineer with over 5 years of experience in designing, developing, testing, and maintaining software systems. My expertise lies in a wide array of technologies including Python, Java 8, Javascript, SpringBoot, ReactJS, NodeJS, Oracle, PostgreSQL, MongoDB Kubernetes, Docker, Drone, HTML, CSS, Bootstrap, RabbitMQ, Kafka, Micrometer, Grafana, Jira and Git </p>
-          <p> I've had the privilege of working with renowned companies like Target, where I've contributed to various projects, ensuring they meet all specified timelines and requirements. During my tenure at Target, I led the development and deployment of critical dashboards, such as Price Matching and Server Room, utilizing my skills in Python for image matching algorithms and UI development. Additionally, I've actively collaborated with teams, conducted code reviews, and mentored junior developers to uphold code quality and best practices.</p>
-          <p>I was also involved in the Video Management Platform team, where I automated manual processes, significantly improving rollout speed and test coverage. My dedication to enhancing system efficiency and performance is reflected in the projects I've undertaken, such as the development of a cross-platform desktop application using ElectronJS, resulting in a 25% reduction in buffering time.</p>
-          <p>I hold a Bachelor's degree in Computer Science from Bangalore Institute of Technology, where my final project on "3D Drawing with Augmented Reality" earned high praise. Additionally, I've pursued various certifications to augment my skill set, including Google Project Management Certificate, Google Advanced Data Analytics Certificate, and ICAgile Certified Professional in Agile Product Ownership, among others.</p>
-          <p>Beyond my professional endeavors, I've actively pursued my interests in emerging technologies such as blockchain, evidenced by my internship experience at ShopConnect.Live. My dedication and contributions have been recognized through awards like the Winner of Advanced Cybersecurity Expedition by Target and securing the 1st place in the Target Women in India Hackathon.</p>
-          <p>I'm excited about the possibilities that lie ahead in the world of technology and look forward to leveraging my skills and experiences to contribute meaningfully to future projects and endeavors.</p>
-        </div>
+<p>Hi, I'm Sharanya Mundakana — a Senior Software Engineer who enjoys building systems that solve real problems at scale. Over the past 7 years, I've worked across backend engineering, full-stack development, distributed systems, data analytics, and fraud detection, which has given me the opportunity to approach problems from both an engineering and analytical perspective.</p>
+
+<p>My journey at Target has taken me through several different areas of technology. I began by building backend microservices and event-driven systems for enterprise order management, then moved into platform engineering and computer vision applications, where I worked on internal tools, dashboards, APIs, and production systems used to support large-scale retail operations.</p>
+
+<p>One of the things I enjoy most about engineering is seeing how technology evolves around a problem. My work has ranged from improving deployment automation and system reliability to partnering with machine learning engineers on computer vision solutions. Along the way, I've worked with technologies such as Java, Python, Spring Boot, React, Node.js, Kafka, PostgreSQL, Docker, Kubernetes, Splunk, and Trino.</p>
+
+<p>More recently, my work has moved deeper into data analytics and fraud detection. I enjoy digging into large datasets, identifying patterns that are difficult to spot, and turning those insights into production solutions. Today, I design and maintain fraud detection strategies and analytical workflows across areas such as gift card abuse, refund fraud, account abuse, and other retail fraud patterns. Some of these systems collectively support more than 300K fraud detections every month.</p>
+
+<p>What I value most is being able to work across the entire problem-solving process — understanding an ambiguous problem, exploring the data, designing a solution, building it, validating it, and continuously improving it once it reaches production. I also enjoy collaborating with people from different backgrounds, mentoring engineers, sharing what I've learned, and helping teams make thoughtful technical decisions.</p>
+
+<p>I studied Computer Science at Bangalore Institute of Technology, where my curiosity for building things started long before my professional career. Since then, I've continued learning through hands-on projects and certifications across data analytics, engineering, product ownership, project management, and cybersecurity.</p>
+
+<p>Outside of work, music is a big part of my life. I'm a vocalist and enjoy performing with a local band. I also spend time mentoring students and early-career professionals, especially those trying to navigate the first few years of their careers in technology.</p>
+
+</div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
@@ -46,10 +53,10 @@ const About = () => {
               <FontAwesomeIcon icon={faJava} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faDatabase} color="#F06529" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faChartLine} color="#28A4D9" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
