@@ -7,7 +7,7 @@ import {
   faLinkedin,
   faGithub,
   // faYoutube,
-  faSkype,
+  // faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
