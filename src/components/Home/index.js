@@ -11,26 +11,34 @@ const Home = () => {
 
   const nameArray = ['h', 'a', 'r', 'a', 'n', 'y', 'a', ',']
   const jobArray = [
-    'f',
-    'u',
-    'l',
-    'l',
-    's',
-    't',
-    'a',
-    'c',
-    'k',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
+   'A',
+  'p',
+  'p',
+  's',
+  ' ',
+  '·',
+  ' ',
+  'A',
+  'n',
+  'a',
+  'l',
+  'y',
+  't',
+  'i',
+  'c',
+  's',
+  ' ',
+  '·',
+  ' ',
+  'D',
+  'e',
+  't',
+  'e',
+  'c',
+  't',
+  'i',
+  'o',
+  'n'
   ]
 
   useEffect(() => {
@@ -39,7 +47,7 @@ const Home = () => {
     }, 4000)
   }, [])
 
-  const resumeUrl = 'https://drive.google.com/file/d/158IOthX3bCCSqKBF16FJs-pv19IEunRA/view?usp=sharing';
+  const resumeUrl = 'https://drive.google.com/file/d/1h8EvQwE17-_sKh7_Paet9rFb_yGTS9w8/view?usp=sharing';
  
   return (
     <>
@@ -67,7 +75,7 @@ const Home = () => {
               idx={17}
             />
           </h1>
-          <h2>Senior software engineer</h2>
+          <h2>Senior software engineer @ Target</h2>
           <Link to={resumeUrl} className="flat-button">
             DOWNLOAD RESUME
           </Link>
