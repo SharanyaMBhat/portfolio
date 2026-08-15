@@ -18,7 +18,7 @@ import Project from "../../assets/images/project.png"
 
 const Portfolio = () => { 
   const [letterClass, setLetterClass] = useState('text-animate');
-  const [portfolio, setPortfolio] = useState([
+  const [portfolio] = useState([
     {
       name: 'STYLE HOME',
       image: Ecommerce,
@@ -63,7 +63,7 @@ const Portfolio = () => {
     },
     // Add more projects as needed
   ]);
-  const [certificate, setCertificate] = useState([
+  const [certificate] = useState([
     {
       name: 'ICAgile Product Owner',
       image: ICAgile,
