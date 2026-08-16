@@ -111,6 +111,151 @@
         }
     }
 }
+
+
+  @media screen and (max-width: 1200px) {
+    .portfolio-page {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%;
+
+      h1.page-title {
+        margin-left: 20px;
+        margin-top: 24px;
+        margin-bottom: 28px;
+      }
+
+      .images-container {
+        gap: 20px;
+        padding-bottom: 50px;
+      }
+
+      .image-box {
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        height: auto;
+        overflow: hidden;
+        background: #0f0f0f;
+
+          .portfolio-image {
+            position: relative;
+            display: block;
+            height: 220px;
+          }
+
+          .content {
+            position: relative;
+            left: 0;
+            right: 0;
+            width: 100%;
+            box-sizing: border-box;
+            bottom: 0;
+            background: linear-gradient(
+              180deg,
+              rgba(0, 0, 0, 0.15) 0,
+              rgba(0, 0, 0, 0.95) 30%
+            );
+            padding: 14px;
+          }
+
+          .btn {
+            margin-top: 14px;
+          }
+
+          &:after {
+            display: none;
+          }
+
+          &:hover .content {
+            bottom: 0;
+            background: linear-gradient(
+              180deg,
+              rgba(0, 0, 0, 0.15) 0,
+              rgba(0, 0, 0, 0.95) 30%
+            );
+          }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .portfolio-page {
+      padding-left: 12px;
+      padding-right: 12px;
+
+      h1.page-title {
+        margin-left: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 42px;
+      }
+
+      .images-container {
+        gap: 16px;
+        padding-bottom: 32px;
+      }
+
+      .image-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+        background: #0f0f0f;
+
+        .portfolio-image {
+          position: relative;
+          display: block;
+          height: 220px;
+        }
+
+        .content {
+          position: relative;
+          left: 0;
+          right: 0;
+          width: 100%;
+          box-sizing: border-box;
+          bottom: 0;
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.95) 30%);
+          padding: 14px 14px 16px;
+        }
+
+        .title {
+          font-size: 20px;
+          line-height: 22px;
+        }
+
+        .description {
+          margin-top: 10px;
+          margin-bottom: 0;
+          font-size: 13px;
+          line-height: 1.45;
+          font-weight: 500;
+        }
+
+        .btn {
+          margin-top: 14px;
+          margin-bottom: 0;
+            display: block;
+          width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+          padding: 0 14px;
+          letter-spacing: 1px;
+          font-size: 13px;
+        }
+
+        &:after {
+          display: none;
+        }
+
+        &:hover .content {
+          bottom: 0;
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.95) 30%);
+        }
+      }
+    }
+  }
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
