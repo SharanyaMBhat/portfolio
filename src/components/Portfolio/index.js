@@ -67,7 +67,7 @@ const Portfolio = () => {
     {
       name: 'ICAgile Product Owner',
       image: ICAgile,
-      description: 'ICAgile Certified Professional - Agile Product Ownership - ICAgile',
+      description: 'Issued by ICAgile',
       url: 'https://www.icagile.com/credentials/b10d91c6-7e31-4c89-b70e-e09592b1db77',
     },
     {
